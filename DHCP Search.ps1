@@ -20,8 +20,8 @@ Add-Type -AssemblyName System.Windows.Forms   # solo para Clipboard
 # MÓDULO: Configuración global
 #==============================================================================
 $Script:Config = @{
-    ServidorPorDefecto = 'ASSCC3141S'
-    Servidores         = @('ASSCC3141S')   # Ampliar según necesidad
+    ServidorPorDefecto = 'DHCP-SERVER'
+    Servidores         = @('DHCP-SERVER')   # Ampliar según necesidad
     Version            = '2.1'
     TituloApp          = 'DHCP Search Tool'
 }
